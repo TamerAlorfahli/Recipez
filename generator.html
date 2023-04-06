@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+</head>
+<section>
+
+    <div class='air air1'></div>
+    <div class='air air2'></div>
+    <div class='air air3'></div>
+    <div class='air air4'></div>
+  
+<body>
+    <div class="min-h-screen bg-gradient-to-br from-indigo-900 to-indigo-950 w-full h-full">
+        <div>
+            <div>
+                <header>
+                    <nav class="bg-white border-slate-200 px-4 lg:px-6 py-2.5 dark:bg-indigo-950">
+                        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                            <a href="home.html" class="flex items-center">
+                                <img src="Icons/neon-app-icon-svgrepo-com.svg" class="mr-3 h-12 sm:h-19" alt="Flowbite Logo" />
+                                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">RecipEz</span>
+                            </a>
+                            <div class="flex items-center lg:order-2">
+                                <a href="login.html" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-blue-400 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-gray-800">Log in</a>
+                                <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
+                                    <span class="sr-only">Open main menu</span>
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                                    <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </button>
+                            </div>
+                            <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                                <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                                    <li>
+                                        <a href="home.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+                                    <li>
+                                        <a href="generator.html" class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white" aria-current="page">Generator</a>
+                                    </li>
+                                    <li>
+                                        <a href="customRecipes.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Custom Recipes</a>
+                                    </li>
+                                    <li>
+                                        <a href="search.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Search Recipes</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.kroger.com/" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/TamerAlorfahli/Senior_Design_CS" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Github</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+
+
+
+
+                <form class="container mx-auto px-56">   
+                    <div class="container pt-10 relative w-full">
+                      <a href="/"><button class="container bn632-hover bn20" id="search-btn">Generate Recipe</button></a>
+                    </div>
+                  </form>
+    
+                    <!-- == Search Results & Cards == -->
+                    <h2
+                      class="mb-8 hidden text-center text-2xl text-white font-semibold"
+                      id="search-result-title"
+                    >
+                      <!-- Recipe Ideas for Your Search: -->
+                    </h2>
+            
+                    <div
+                      class="error  hidden text-center font-normal text-white sm:text-red-500"
+                      id="error"
+                    >
+                      <!-- Error message -->
+                    </div>
+            
+                    <!-- Search results Cards -->
+                    <div
+                      class="search-results flex flex-row flex-wrap justify-evenly gap-6"
+                      id="search-results"
+                    >
+                      <!-- Generated based on search results (stored in ./src/js/app.js) -->
+                    </div>
+            
+                    <!-- Modal -->
+                    <div
+                      id="details-modal"
+                      tabindex="-1"
+                      class="fixed top-0 left-0 right-0 z-50 hidden h-full w-full overflow-y-auto overflow-x-hidden p-4 md:inset-0"
+                      role="dialog"
+                      style="align-items: flex-start"
+                    >
+                      <div class="relative h-full w-full max-w-4xl md:h-auto">
+                        <!-- Modal content autogenerated based on selected meal (stored in ./src/js/app.js)  -->
+                      </div>
+                    </div>
+                    <div
+                      class="overlay fixed inset-0 z-40 hidden h-full w-full bg-slate-900 opacity-90"
+                      id="overlay"
+                    ></div>
+                </div>
+            
+                <!-- Scripts -->
+                <script src="./src/js/appTwo.js"></script>
+            
+                <!-- Meal Cards -->
+                <div
+                  class="card w-sm mx-auto mb-4 hidden max-w-full border-spacing-4 rounded-lg border border-gray-700 bg-gray-800 shadow"
+                >
+                  <div class="card-img-container rounded">
+                    <img
+                      class="rounded-t-lg object-cover"
+                      src=""
+                      alt="card image showing recipe preview"
+                    />
+                  </div>
+                  <div class="p-5">
+                    <h5 class="mb-2 text-center text-xl font-medium text-white">
+                      <!-- Recipe Name -->
+                    </h5>
+                    <div class="flex w-full items-center justify-center">
+                      <button
+                        class="recipe-btn mt-4 inline-flex items-center text-white rounded-lg bg-teal-600 px-3 py-2 text-center text-sm font-medium text-slate-900 transition duration-300 ease-in-out hover:bg-teal-700 focus:outline-none focus:ring-4 focus:ring-bg-blue-700"
+                        id="recipe-btn"
+                        data-id="${meal.idMeal}"
+                        type="button"
+                      >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Modal for Meal Details -->
+                <div class="relative mx-auto hidden max-w-4xl rounded-lg bg-gray-700">
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between rounded-t border-b border-gray-600 p-5"
+                  >
+                    <h3
+                      class="font-medium capitalize text-white"
+                      id="modal-recipe-title"
+                    >
+                      <!-- Recipe Name  -->
+                    </h3>
+                    <button
+                      type="button"
+                      id="close-btn"
+                      class="ml-auto inline-flex items-center rounded-lg bg-transparent p-1.5 text-sm text-gray-400 hover:bg-gray-600 hover:text-white"
+                      onclick="closeModal()"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="h-5 w-5"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-6 p-6">
+                    <div class="flex flex-wrap items-center justify-between gap-4">
+                      <h3 class="font-bold">
+                        <!-- Recipe Preparation  -->
+                      </h3>
+                      <div class="rounded border px-4 py-0.5 md:px-8">
+                        <span
+                          class="text-center text-sm font-semibold text-white"
+                          id="modal-recipe-category"
+                        >
+                          <!-- Recipe Category -->
+                        </span>
+                      </div>
+                    </div>
+                    <p
+                      class="text-sm leading-relaxed text-gray-400 md:text-base"
+                      id="modal-preparation-instructions"
+                    >
+                      <!-- Recipe Instructions -->
+                    </p>
+                  </div>
+            
+                    <h3 class="text-center">
+                      <!-- Recipe Tutorial Video  -->
+                    </h3>
+                    <div class="h-full w-full">
+                      <iframe
+                        id="modal-yt-video"
+                        class="video-embed mx-auto"
+                        src=""
+                        title="Recipe Tutorial Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+

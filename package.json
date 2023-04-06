@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
+    "node": "^19.8.1",
+    "openai": "^3.2.1"
+  },
+  "name": "recipez_cs50",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "web": "^0.0.2",
+    "webpack-cli": "^5.0.1"
+  }
+}
