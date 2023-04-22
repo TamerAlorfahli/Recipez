@@ -60,7 +60,7 @@
 //   xhr.open("POST", url);
 
 //   xhr.setRequestHeader("Content-Type", "application/json");
-//   xhr.setRequestHeader("Authorization", "Bearer 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");
+//   xhr.setRequestHeader("Authorization", "Bearer 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");
 
 //   xhr.onreadystatechange = function () {
 //      if (xhr.readyState === 4) {
