@@ -146,7 +146,7 @@ async function openai_test(message) {
   xhr.open("POST", url);
   
   xhr.setRequestHeader("Content-Type", "application/json");
-  xhr.setRequestHeader("Authorization", "Bearer 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");
+  xhr.setRequestHeader("Authorization", "Bearer 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");
   
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
